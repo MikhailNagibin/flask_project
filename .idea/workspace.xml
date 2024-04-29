@@ -4,30 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e435824-02d8-44df-a65d-91b38cc0c4aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/flask_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/__all_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/books.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/books_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/db_session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/test_books.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tests_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/users_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/profile1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/read.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+    <list default="true" id="4e435824-02d8-44df-a65d-91b38cc0c4aa" name="Changes" comment="all done1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/Forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/books.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/books.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/change_password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/read_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/read_about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,20 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.books_api.executor": "Run",
-    "Python.dfaasdf.executor": "Run",
-    "Python.main (1).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.test_books.executor": "Run",
-    "Python.tests_users.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/nagib/PycharmProjects/flask_project"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.books_api.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dfaasdf.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_books.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tests_users.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nagib/PycharmProjects/flask_project&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nagib\PycharmProjects\flask_project" />
@@ -77,7 +68,7 @@
       <recent name="C:\Users\nagib\PycharmProjects\flask_project\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tests_users">
+  <component name="RunManager" selected="Python.main">
     <configuration name="books_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="flask_project" />
       <option name="ENV_FILES" value="" />
@@ -190,8 +181,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tests_users" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.tests_users" />
         <item itemvalue="Python.test_books" />
         <item itemvalue="Python.books_api" />
         <item itemvalue="Python.dfaasdf" />
@@ -214,6 +205,39 @@
       <option name="presentableId" value="Default" />
       <updated>1713638043195</updated>
     </task>
+    <task id="LOCAL-00001" summary="all done">
+      <option name="closed" value="true" />
+      <created>1714381140687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714381140687</updated>
+    </task>
+    <task id="LOCAL-00002" summary="all done1">
+      <option name="closed" value="true" />
+      <created>1714381231351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714381231351</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all done" />
+    <MESSAGE value="all done1" />
+    <option name="LAST_COMMIT_MESSAGE" value="all done1" />
   </component>
 </project>

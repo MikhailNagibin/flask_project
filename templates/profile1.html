@@ -25,7 +25,7 @@
         </p>
          <p>
     {{ form.about.label }}<br>
-        <input class="form-control" id="about" name="about" required type="text" value="{{ current_user.about }}"><br>
+             <textarea class="form-control" id="about" name="about" required type="text">{{ current_user.about }}</textarea><br>
         </p>
        <p>{{ form.submit(type="submit", class="btn btn-primary") }}</p>
     </form>

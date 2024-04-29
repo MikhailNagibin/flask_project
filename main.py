@@ -159,7 +159,8 @@ def red(id):
         book.time_for_reading = form.time_for_reading.data
         book.about = form.about.data
         db_sess.commit()
-    return render_template("red.html", form=form, book=book)
+        return redirect(f"/books/{id}")
+    return render_template("red1.html", form=form, book=book)
 
 
 @app.route("/redprof", methods=["GET", "POST"])

@@ -38,7 +38,7 @@ class Profile(FlaskForm):
 
 
 class ChangePassword(FlaskForm):
-    old_password = PasswordField("Пароль", validators=[DataRequired()])
+    old_password = PasswordField("Cтарый пароль", validators=[DataRequired()])
     password = PasswordField("Пароль", validators=[DataRequired()])
     password_again = PasswordField("Повторите пароль", validators=[DataRequired()])
     submit = SubmitField("Добавить")

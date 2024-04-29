@@ -40,7 +40,7 @@
         </p>
         <p>
         {{ form.about.label }}<br>
-             <input class="form-control" id="about" name="about" required type="text" value="{{ book.about }}" readonly><br>
+            <textarea class="form-control" id="about" name="about" required type="text" readonly>{{ book.about }}</textarea>
             {% for error in form.about.errors %}
                 <div class="alert alert-danger" role="alert">
                     {{ error }}

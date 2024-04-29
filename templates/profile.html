@@ -24,7 +24,7 @@
         </p>
          <p>
     {{ form.about.label }}<br>
-        <input class="form-control" id="about" name="about" required type="text" value="{{ current_user.about }}" readonly><br>
+             <textarea class="form-control" id="about" name="about" required type="text" readonly>{{ current_user.about }}</textarea><br>
         </p>
         <a  class="btn btn-primary " href="/redprof">Редактировать</a>
         <a  class="btn btn-primary " href="/change_password">Изменить пароль</a>
