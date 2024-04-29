@@ -221,3 +221,4 @@ if __name__ == "__main__":
     app.register_blueprint(books_api.blueprint)
     app.register_blueprint(users_api.blueprint)
     app.run(port=8000, host="127.0.0.1")
+
