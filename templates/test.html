@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+
+    <title>File Upload</title>
+    <h1>Загрузка файла на сервер</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        {{ my_form.hidden_tag() }}
+        <p>
+        {{ my_form.title.label }}<br>
+            {{ my_form.title(class="form-control", type="title") }}<br>
+        {{ my_form.author.label }}<br>
+            {{ my_form.author(class="form-control", type="author") }}<br>
+        {{ my_form.time_for_reading.label }}<br>
+            {{ my_form.time_for_reading(class="form-control", type="time_for_reading") }}<br>
+        {{ my_form.about.label }}<br>
+            {{ my_form.about(class="form-control", type="about") }}<br>
+        <label for="file">Выберите файл:</label>
+        <input type="file" id="file" name="file" accept=".txt, .pdf, .jpg, .png">
+        </p>
+        <br>
+        <p>{{ my_form.submit(class="btn btn-primary") }}</p>
+         {% if message != '' %}
+            <div class="alert alert-danger" role="alert">{{ message }}</div>
+         {% endif %}
+        <button href="/profile">asdf</button>
+    </form>
+{% endblock %}

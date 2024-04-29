@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<meta charset="UTF-8">
+
+<h2 align="center">Works log</h2>
+{% for book in books %}
+<h3>Action # {{ book.id }}</h3>
+<div class="table_container">
+    <table class="my_table">
+        <tr class="my_row">
+            <td class="title" width="400px" bgcolor="#dddddd">Title of book</td>
+            <td class="title" width="150px" bgcolor="#dddddd">author</td>
+            <td class="title" width="100px" bgcolor="#dddddd" align="center">time for reading</td>
+        </tr>
+        <tr class="my_row">
+            <td class="ordinary" bgcolor="#eeeeff">{{ book.title }}</td>
+            <td class="ordinary" bgcolor="#eeeeff">{{ book.author }}</td>
+            <td class="ordinary" bgcolor="#eeeeff" align="center">{{ book.time_for_reading }} hours</td>
+        </tr>
+    </table>
+</div>
+<br>
+<div>
+    <a href="/books/{{ book.id }}" class="btn btn-warning">Read</a>
+</div>
+{% endfor %}
+{% endblock %}

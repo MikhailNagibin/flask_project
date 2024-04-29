@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <form action="" method="post">
+    <h1>Ваш профиль</h1>
+        <p>
+    {{ form.email.label }}<br>
+        <input class="form-control" id="email" name="email" required type="text" value="{{ current_user.email }}" readonly><br>
+        </p>
+         <p>
+    {{ form.name.label }}<br>
+        <input class="form-control" id="name" name="name" required type="text" value="{{ current_user.name }}" readonly><br>
+        </p>
+         <p>
+    {{ form.surname.label }}<br>
+        <input class="form-control" id="surname" name="surname" required type="text" value="{{ current_user.surname }}" readonly><br>
+        </p>
+         <p>
+    {{ form.about.label }}<br>
+        <input class="form-control" id="about" name="about" required type="text" value="{{ current_user.about }}" readonly><br>
+        </p>
+        <a  class="btn btn-primary " href="/redprof">Редактировать</a>
+        <a  class="btn btn-primary " href="/change_password">Изменить пароль</a>
+        <a  class="btn btn-primary" href="/upload">Добавить книгу</a>
+        <a  class="btn btn-primary" href="/">На главную</a>
+         </form>
+<!--    <button-->
+{% endblock %}

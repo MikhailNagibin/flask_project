@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+    <h1>Добавление книги</h1>
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.title.label }}<br>
+            <input class="form-control" id="title" name="title" required type="text" value="{{ book.title }}" readonly><br>
+            {% for error in form.title.errors %}
+                <div class="alert alert-danger" role="alert">
+                    {{ error }}
+                </div>
+            {% endfor %}
+        </p>
+        <p>
+        {{ form.author.label }}<br>
+            <input class="form-control" id="author" name="author" required type="text" value="{{ book.author }}" readonly><br>
+            {% for error in form.author.errors %}
+                <div class="alert alert-danger" role="alert">
+                    {{ error }}
+                </div>
+            {% endfor %}
+        </p>
+
+        {{ form.time_for_reading.label }}<br>
+         <input class="form-control" id="time_for_reading" name="time_for_reading" required type="number" value="{{ book.time_for_reading }}" readonly><br>
+            {% for error in form.time_for_reading.errors %}
+                <div class="alert alert-danger" role="alert">
+                    {{ error }}
+                </div>
+            {% endfor %}
+        </p>
+        <p>
+        {{ form.about.label }}<br>
+             <input class="form-control" id="about" name="about" required type="text" value="{{ book.about }}" readonly><br>
+            {% for error in form.about.errors %}
+                <div class="alert alert-danger" role="alert">
+                    {{ error }}
+                </div>
+            {% endfor %}
+        </p>
+        <a class="btn btn-primary " href="/">Выйти</a>
+        {% if current_user.is_authenticated %}
+        <a class="btn btn-primary " href="/books/read/{{ book.id }}">Читать</a>
+            {% if current_user.id == book.whose %}
+                <a class="btn btn-primary " href="/books/red/{{ book.id }}">Редактировать</a>
+                <a class="btn btn-primary " href="/books/del/{{ book.id }}">Удалить</a>
+            {% endif %}
+        {% endif %}
+            </form>
+
+
+{% endblock %}
