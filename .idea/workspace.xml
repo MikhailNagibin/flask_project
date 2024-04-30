@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e435824-02d8-44df-a65d-91b38cc0c4aa" name="Changes" comment="all done1">
+    <list default="true" id="4e435824-02d8-44df-a65d-91b38cc0c4aa" name="Changes" comment="add requirements.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/Forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/Forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/books.db" beforeDir="false" afterPath="$PROJECT_DIR$/db/books.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/change_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/change_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/profile1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profile1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/read_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/read_about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +214,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714381231351</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dd somthing">
+      <option name="closed" value="true" />
+      <created>1714400339063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714400339063</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add requirements.txt">
+      <option name="closed" value="true" />
+      <created>1714400779860</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714400779860</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +247,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="all done" />
     <MESSAGE value="all done1" />
-    <option name="LAST_COMMIT_MESSAGE" value="all done1" />
+    <MESSAGE value="dd somthing" />
+    <MESSAGE value="add requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add requirements.txt" />
   </component>
 </project>
